@@ -1,5 +1,5 @@
 package a1;
-
+//main class
 public class main {
 	
 	public static void main(String[] args) {
