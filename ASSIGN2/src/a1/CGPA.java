@@ -8,13 +8,13 @@ public class CGPA {
 	
 	
 public void printcgpa() {
-	System.out.println("cgpa is "+result);	
+	System.out.println("CGPA                 :"+result);	
 }
 
 public void printgpa() {
-	
+	System.out.print("GPA                  :");
 	for(int i=0; i<gpa.length;i++) {
-		System.out.println("GPA for sem "+ (i+1) + " is " + gpa[i]);
+		System.out.print( "Sem "+(i+1) + "=" + gpa[i]+"  ");
 		
 		
 	}
